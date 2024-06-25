@@ -48,7 +48,8 @@ const testimonials = [
 
 const TechSkillSection = () => {
     return (
-        <div className="h-[36rem] rounded-md flex flex-col antialiased bg-white dark:bg-black dark:bg-grid-white/[0.05] items-center justify-center relative overflow-hidden">
+        <div className="h-[36rem] rounded-md flex flex-col  antialiased bg-white dark:bg-black dark:bg-grid-white/[0.05] items-center justify-center relative overflow-hidden">
+            <h1 className="absolute top-3 md:text-3xl text-3xl text-neutral-300 font-bold lg:text-7xl">Skills</h1>
             <InfiniteMovingCards
                 items={testimonials}
                 direction="right"

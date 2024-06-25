@@ -44,7 +44,8 @@ const items = [
 const SkillSection = () => {
     return (
         <div className="py-9 lg:h-[52rem] md:h-[52rem] h-[57rem] relative w-full flex items-center justify-center">
-            <BentoGrid className="max-w-4xl sm:max-w-1xl  mx-auto w-full absolute lg:top-4 md:top-4 top-1 sm:m-3">
+            <h1 className="absolute top-3 md:text-3xl text-3xl text-neutral-300 font-bold lg:text-5xl">Projects</h1>
+            <BentoGrid className="max-w-4xl sm:max-w-1xl  mx-auto w-full absolute  lg:top-12 md:top-4 top-12 sm:m-3">
                 {items.map((item, i) => (
                     <BentoGridItem
                         key={i}
