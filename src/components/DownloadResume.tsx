@@ -1,15 +1,12 @@
-"use client";
+
+import Link from 'next/link';
 import React from 'react'
 
 
 const DownloadResume = () => {
 
-  const showResume = () => {
-    window.open("", "_blank");
-  };
-
   return (
-    <button className="p-5 rounded-md" onClick={showResume}>My Resume</button>
+    <p className="p-5 rounded-md" >Hire Me.</p>
   )
 }
 

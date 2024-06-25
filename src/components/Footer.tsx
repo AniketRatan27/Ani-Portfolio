@@ -6,7 +6,7 @@ import { CiTwitter } from "react-icons/ci";
 
 const Footer = () => {
     return (
-        <div className=" py-9 lg:h-[11rem] md:h-[35rem] h-[31rem] relative w-full bg-black flex flex-col items-center justify-center overflow-hidden rounded-md">
+        <div className=" py-9 lg:h-[11rem] md:h-[27rem] h-[16rem] relative w-full bg-black flex flex-col items-center justify-center overflow-hidden rounded-md">
 
             <div className="w-full md:text-2xl text-xs lg:text-3xl  flex justify-around text-gray-300 text-wrap relative z-20">
                 <div className="flex ">
@@ -20,7 +20,7 @@ const Footer = () => {
                     </div>
                 </div>
                 <div className="">
-                    <p>Quick Links</p>
+                    <p className='text-xl'>Quick Links</p>
                     <ul className="text-sm font-normal flex flex-col">
                         <Link href={"/about"}>About Me</Link>
                         <Link href={"/projects"}>Projects</Link>
@@ -29,11 +29,11 @@ const Footer = () => {
                     </ul>
                 </div>
                 <div className="">
-                    <p className="text-xl font-bold">Social Accounts</p>
-                    <ul className="flex ml-4">
-                        <Link href={"https://github.com/AniketRatan27"} className='ml-4'><FaGithub /></Link>
-                        <Link href={"https://www.linkedin.com/in/aniket-ratan-49b62b221/"} className='ml-4'><CiLinkedin /></Link>
-                        <Link href={"https://x.com/ani_ket_27"} className='ml-4'><CiTwitter /></Link>
+                    <p className="lg:text-xl md:text-xl text-sm lg:font-bold md:font-bold sm:text-xs font-normal">Social Accounts</p>
+                    <ul className="flex ml-4 sm:text-xl">
+                        <Link href={"https://github.com/AniketRatan27"} className='ml-4 '><FaGithub className='lg:text-xl md:text-xl text-xl' /></Link>
+                        <Link href={"https://www.linkedin.com/in/aniket-ratan-49b62b221/"} className='ml-4 '><CiLinkedin className='lg:text-xl md:text-xl text-xl' /></Link>
+                        <Link href={"https://x.com/ani_ket_27"} className='ml-4 '><CiTwitter className='lg:text-xl md:text-xl text-xl' /></Link>
                     </ul>
                 </div>
             </div>
