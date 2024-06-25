@@ -26,7 +26,7 @@ const HeroSection = () => {
                 <div className="mt-4">
 
                     <button
-                        className="bg-white dark:bg-black text-black dark:text-white border-neutral-200 dark:border-slate-800"
+                        className="bg-white rounded-md dark:bg-black text-black dark:text-white border-neutral-200 dark:border-slate-800"
                     >
                         <DownloadResume />
                     </button>
