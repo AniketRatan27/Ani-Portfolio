@@ -1,8 +1,11 @@
-import { motion } from "framer-motion";
+import DownloadResume from "./DownloadResume";
 import { Spotlight } from "./ui/Spotlight";
-import { Button } from "./ui/moving-border";
+
 
 const HeroSection = () => {
+
+
+
     return (
         <div className="h-auto md:h-[44rem] w-full rounded-md flex flex-col items-center justify-center relative overflow-hidden mx-auto py-10 md:py-0">
             <Spotlight
@@ -21,12 +24,13 @@ const HeroSection = () => {
                 </p>
 
                 <div className="mt-4">
-                    <Button
-                        borderRadius="1.75rem"
+
+                    <button
                         className="bg-white dark:bg-black text-black dark:text-white border-neutral-200 dark:border-slate-800"
                     >
-                        Download resume
-                    </Button>
+                        <DownloadResume />
+                    </button>
+
                 </div>
             </div>
         </div>
