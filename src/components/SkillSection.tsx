@@ -11,11 +11,10 @@ const Skeleton = () => (
 );
 const items = [
     {
-        title: "Movie Application Design",
-        description: "Built a Movie application frontend design.",
-        header: <Image src={movieApp} alt="movie" />,
-        links: "https://movies-app-seven-beryl.vercel.app/"
-
+        title: "Twitter Clone",
+        description: "Built a twitter clone, with some feature like auth,follow-unFollow posts.",
+        header: <Image src={twitter} alt="Twitter" />,
+        links: "https://twitter-clone-05wx.onrender.com"
     },
     {
         title: "GameHub",
@@ -32,10 +31,11 @@ const items = [
 
     },
     {
-        title: "Twitter Clone",
-        description: "Built a twitter clone, with some feature like auth,follow-unFollow posts.",
-        header: <Image src={twitter} alt="Twitter" />,
-        links: "https://twitter-clone-05wx.onrender.com"
+        title: "Movie Application Design",
+        description: "Built a Movie application frontend design.",
+        header: <Image src={movieApp} alt="movie" />,
+        links: "https://movies-app-seven-beryl.vercel.app/"
+
     },
 ];
 
